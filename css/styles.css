@@ -14,3 +14,7 @@ h2 {
 .introNote {
   text-align: left;
 }
+
+footer {
+  min-height: 3rem;
+}
