@@ -34,20 +34,47 @@
   <header class="starter-template row">
     <section class="col-10 offset-1">
     <h1>Bootstrap 4: Layout & Grid</h1>
-    <p class="lead">Layout grid, components, & utilities</p>
-    <p class="introNote">Using a CSS framework is one of the best ways that a beginner can make a professional site from scratch. Bootstrap is the most popular CSS framework. I teach it to beginners since Bootstrap comes with nice default styles, an easy-to-understand grid for layout, components for quickly building nice UI elements, and handy utilities. All of these aspects of Bootstrap can be mixed and modified in various ways. With a bit of thought, you can actually customize your Bootstrap site in very attractive ways. Plus, you always have the option of extending any element with your own custom CSS design.</p>
-    <p class="introNote">Adapting your website to work well on mobile devices is one of the key reasons for using Bootstrap. The grid system of Bootstrap can automatically adjust the grid layout based on the screen size of a device.</p>
-    <h2>A mental model for using Bootstrap</h2>
-<p class="introNote">A CSS framework, like Bootstrap, is just a set of CSS code developed by experienced developer that's available for you to use. Basically, <strong>Bootstrap is just a CSS file that you link to your page</strong>. You never have to touch the CSS code of Bootstrap; if you want to modify a style, then you do that in your own CSS style code. You implement features of Bootstrap by <strong>adding class names specified by Bootstrap</strong>, and then the rest is (more or less) automatic. </p>
+    <p class="lead">Containers, Columns, & Rows</p>
+    <p class="introNote">In this step, we will go over the initial step in defining a layout in Bootstrap: setting up a container for the grid. Containers, as the name suggest, contain the grid that controls the layout of the content. In other words, containers also contain the content. . A web page may have one containers or multiple containers. Containers can be nested, but in most cases you don't use nested containers.</p>
+    <p class="introNote">How do you define a container in Bootstrap? Remember that Bootstrap is a set of CSS code. So, it comes with a .container class. You add this .container class to an HTML element in the body of the HTML page. Most often, you will add the .container class to an HTML element such as main, section, article, or div. </p>
+<p class="introNote">By default, the .container class comes with padding that provides an attractive left and right margin. That makes the content look centered on the web page without you needing to do anything else. </p>
+
+<p class="introNote">In some cases, you will the content to stretch all the way across a page without any margin. This is most common when using an image that you want to fully span the width of the page. You implement this style by using the class .container-fluid instead of .container.</p>
+
+<p class="introNote">Terms. Be sure to understand the following three terms when working with grid layouts.</p>
+<p class="introNote">Viewport: the part of the web page that is visible within the browser. The viewport is only what you see at a particular time. The viewport does not include the entire web page if you have to scroll to see the rest of the web page. The browser automatically knows what parts of the page is visible on the screen. This information, known as the viewport, is very useful in developing web pages, particularly when you add interactions or behaviors that you only want to start activating when a person scrolls into a certain area of the page.</p>
+
+
+<p class="introNote">In terms of layout and responsive design, the viewport keeps track of the width of the visible page within the browser. </p>
+
+
+<p class="introNote">Breakpoints: A breakpoint is a specified width of the viewport, e.g., 960px. When the browser is adjusted to go beyond or below that width, i.e., breakpoint, the design can respond with a change of layout to accommodate the smaller or larger width. This is where responsive design comes into play. </p>
+
+
+<p class="introNote">Min-width: the viewport width in pixels at which </p>
+
+
+<p class="introNote">Bootstrap sets sizes for the following widths as max-width and breakpoints:</p>
+
+
+<p class="introNote"></p>
+
+
+<p class="introNote">When use the class .container, the width of the container changes depending upon the width of the viewport. While this may seem confusing at first, this feature allows you to specify in your CSS different layouts for different widths. Obviously, phones have viewports with smaller widths than laptop and desktop computers. That's where having your content in a container that can automatically adjust based on the viewport width is really helpful.</p>
+<h3>Creating Grids in Bootstrap</h3>
+
+
+<p class="introNote">Always keep in mind that Bootstrap is a set of predefined CSS classes that you can use in your HTML. Bootstrap allows you to easily define a grid that is 12 columns wide. And you can add as many or as few rows as you need. </p>
+
+
+<p class="introNote">To define a grid, start with the container. Then you define the number of columns, and then a row.</p>
+
+
+<p class="introNote">  </p>
 </section>
   </header>
 
-<section class="installation row">
-  <article class="col-10 offset-1">
-<h2>lorem ipsum</h2>
 
-</article>
-</section>
 
 </main>
 <footer>
