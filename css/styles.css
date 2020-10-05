@@ -24,6 +24,11 @@ h2 {
 
 }
 
+.css-code {
+  font-size: 87%;
+  color: #E83E8C;
+}
+
 footer {
   min-height: 3rem;
 }
